@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+
+a {
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.card-container {
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.popUp-btn {
+  text-decoration: none;
+  background-color: aqua;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.popUp-btn :hover {
+  color: #321bda;
+  border: black 2px solid;
+}
+
+.inner-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+}
+
+.title-like {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.display-image {
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.card-data {
+  display: flex;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+
+.popup-window {
+  top: 15px;
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  position: absolute;
+  width: 80%;
+  align-self: center;
+  left: 100px;
+}
+
+.popUp-img {
+  width: 300px;
+  height: 300px;
+}
+
+.details  {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  padding: 20px;
+}
+
+.comment-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+#form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* x Button */
+
+.fa-x {
+  display: flex;
+  position: absolute;
+  top: 5;
+  font-size: 30px;
+  font-weight: 1000;
+  margin-bottom: 10px;
+  align-self: flex-end;
+}
+
+.fa-x:hover {
+  color: #fff;
+}
